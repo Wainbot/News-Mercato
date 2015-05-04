@@ -2,10 +2,10 @@
 <widget id="com.ionicframework.footballapp863823" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>FootballApp</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Ionic mobile application for news mercato.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="jeremyfroment@yahoo.fr" href="http://jeremyfroment.fr/">
+      Jérémy Froment
     </author>
   <content src="index.html"/>
   <access origin="*"/>
