@@ -1,0 +1,17 @@
+<ion-view title='<img src="../img/title.png" alt="title"/>'>
+  <ion-content>
+
+          <ion-list>
+              <ion-item ng-repeat="item in mercato" class="item item-thumbnail-left">
+                  <h4>{{item.title}}</h4>
+                  <div class="contentItem" ng-bind-html="item.content"></div>
+              </ion-item>
+          </ion-list>
+      <!--<div class="list">-->
+          <!--<a ng-repeat="item in mercato" class="item item-thumbnail-left" href="#/tab/mercato/{{$index + 1}}" >-->
+              <!--<h4>{{item.title}}</h4>-->
+              <!--<div class="contentItem" ng-bind-html="item.content"></div>-->
+          <!--</a>-->
+      <!--</div>-->
+  </ion-content>
+</ion-view>

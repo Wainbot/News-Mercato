@@ -1,0 +1,11 @@
+<ion-view title='<img src="../img/title.png" alt="title"/>'>
+  <ion-content>
+    <ion-list>
+        <a ng-repeat="item in mercato" class="item item-thumbnail-left" href="#/tab/mercato/{{item.id}}">
+            <img src="../img/ionic.png">
+            <h2>{{item.name}}</h2>
+            <p>Le texte d'accroche....</p>
+        </a>
+    </ion-list>
+  </ion-content>
+</ion-view>
